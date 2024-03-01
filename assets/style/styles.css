@@ -1,0 +1,955 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body,
+.pageSucefull {
+    background-color: #151515;
+    width: 100vw;
+    color: #fff;
+}
+
+.pageSucefull {
+    background-color: #242424;
+    color: #fff;
+}
+
+.pageSucefull div {
+    margin: 20rem auto;
+    max-width: 80%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-image: url("../img/pattern-rings.svg");
+    background-repeat: no-repeat;
+    background-size: 31.5%;
+    background-position: center center;
+}
+
+.pageSucefull div h1 {
+    margin: 2rem;
+    font-size: 3rem;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+}
+
+.pageSucefull div a {
+    border-bottom: 0.15rem solid #4de29f;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.pageSucefull div a:hover {
+    color: #4de29f;
+}
+
+main {
+    max-width: 58.5%;
+    margin: 1.8rem auto;
+    margin-bottom: 0;
+}
+
+
+a.nameTopo {
+    font-size: 2.0rem;
+    letter-spacing: -0.044rem;
+    text-decoration: none;
+}
+
+.heading-secundary {
+    font-size: 5.36rem;
+    letter-spacing: -0.25rem;
+    margin-bottom: 3.73rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.header__social-box {
+    display: flex;
+    align-items: center;
+    gap: 2.467rem;
+}
+
+.contact {
+    color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(153, 71%, 59%);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+}
+
+.contactTwo {
+    color: hsl(0, 0%, 100%);
+    border-bottom: 2px solid hsl(153, 71%, 59%);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 600;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.text_about {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 40rem;
+    letter-spacing: 0.15rem;
+    line-height: 1.5;
+}
+
+.div_one {
+    margin-top: 13rem;
+}
+
+.sectionOne {
+    background-color: #151515;
+}
+
+.sectionFour {
+    background-color: #242424;
+    max-width: 100%;
+    margin: 1.8rem auto;
+    margin-bottom: 0;
+}
+
+.spiral {
+    float: right;
+    margin-right: 53rem;
+    margin-top: -34rem;
+}
+
+.circle {
+    float: right;
+    margin-right: -4rem;
+    margin-top: -3rem;
+}
+
+.photo {
+    float: right;
+    margin-top: -39rem;
+    bottom: 7rem
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+header nav a {
+    margin: 0.50rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.nameSpan {
+    border-bottom: 0.25rem solid #4de29f;
+}
+
+a {
+    color: #F7F7F7;
+}
+
+p {
+    color: #D1D1D1;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.hardLeft {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.hardRight {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+.hardLeft>div,
+.hardRight>div {
+    box-sizing: border-box;
+}
+
+.hardLeft>div:last-child,
+.hardRight>div:last-child {
+    margin-right: 0;
+}
+
+.sectionTwo .hardLeft h3 {
+    font-size: 2.7rem;
+}
+
+.sectionTwo .hardLeft p {
+    font-size: 1.34rem;
+}
+
+.sectionTwo .hardRight h3 {
+    font-size: 2.7rem;
+}
+
+.sectionTwo .hardRight p {
+    font-size: 1.34rem;
+}
+
+.sectionTree {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 6rem;
+}
+
+.sectionTree .titleProjects {
+    font-size: 5rem;
+}
+
+.sectionTree .titleContact {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: #D1D1D1;
+}
+
+.projectsBoxes {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit, minmax(480px, auto));
+    justify-content: space-between;
+    gap: 6.9rem .30rem;
+    margin-bottom: 10rem;
+}
+
+.projectsBoxes>div {
+    margin-right: 0;
+}
+
+.projectsBoxes>div:last-child {
+    margin-right: 0;
+}
+
+.projectsBoxes>div>img {
+    max-width: 100%;
+    width: 541.67px;
+    height: 401.23px;
+}
+
+.projectsLanguage {
+    display: inline-block;
+    margin-right: 10px;
+    color: #d1d1d1;
+}
+
+.titleTertiary {
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+}
+
+.formGeneral {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15rem;
+    margin-right: 0;
+}
+
+.textEnd {
+    margin-top: 4.55rem;
+}
+
+h1.contactEnd {
+    font-size: 5rem;
+}
+
+.description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 4rem;
+    letter-spacing: 0.15rem;
+    line-height: 2;
+}
+
+.formEnd {
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    padding: 0.7rem 1.6rem 1.4rem 2.4rem;
+    border-radius: 2px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+    width: 100%;
+    display: block;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    margin-top: 5rem;
+    outline: none;
+}
+
+.buttonSubmit {
+    font-size: .9rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    float: right;
+    border-bottom: 0.18rem solid #4de29f;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 0.01rem;
+    font-family: inherit;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+
+.endGrey{
+    max-width: 58.5%;
+    margin: 1.8rem auto;
+    margin-bottom: 0;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid hsl(0, 0%, 100%);
+}
+
+.end nav {
+    display: flex;
+    list-style-type: none;
+    margin-top: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.end nav a {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+a.nameEnd {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+a.whats-end,
+a.git-end,
+a.mail-end,
+a.linke-end,
+a.insta-end {
+    padding: 1rem;
+}
+
+.git-end i,
+.whats-end i,
+.mail-end i,
+.linke-end i,
+.insta-end i,
+.git-start i,
+.insta-start i,
+.linke-start i,
+.email-start i,
+.whats-start i {
+    font-size: 1.5rem;
+}
+
+.email-start,
+mail-end {
+    border: none;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a.nameTopo:hover,
+a.git-end:hover,
+a.whats-end:hover,
+a.mail-end:hover,
+a.linke-end:hover,
+a.insta-end:hover,
+a.git-start:hover,
+a.contact:hover,
+a.nameEnd:hover,
+a.contactTwo:hover,
+a.insta-start:hover,
+a.linke-start:hover,
+a.email-start:hover,
+a.whats-start:hover,
+.buttonSubmit:hover{
+    color: #4CE19E;
+}
+
+.pageTop:hover {
+    filter: brightness(150%);
+}
+
+.clickProjects img {
+    transition: transform 0.3s ease-in-out;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    overflow: hidden;
+}
+
+.clickProjects:hover img {
+    transform: scale(1.03);
+}
+
+.clickProjects {
+    position: relative;
+    display: inline-block;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.229rem;
+    line-height: 2.6rem;
+    padding-bottom: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+}
+
+.project-text {
+    color: hsl(0,0%,100%);
+    border-bottom: 2px solid hsl(153,71%,59%);
+    font-size: 1.6rem;
+}
+
+.clickProjects .project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.clickProjects:hover .project-text {
+    opacity: 1;
+}
+
+::placeholder {
+    color: #929292;
+}
+
+@media screen {}
+
+::-webkit-scrollbar {
+    background-color: #ffffffe3;
+    width: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+}
+
+@media screen and (max-width: 479px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    a.nameTopo {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .pageSucefull div {
+        margin: 3rem auto;
+        max-width: 100%;
+    }
+
+    .pageSucefull div h1 {
+        font-size: 1.8rem;
+    }
+
+    .pageSucefull div a {
+        font-size: 0.9rem;
+    }
+
+    main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .text_about {
+        padding-right: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: -15rem;
+    }
+
+    .photo {
+        margin-top: -15rem;
+        margin-bottom: 2rem;
+        bottom: 2rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projectsBoxes {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: none;
+        gap: 6.9rem 0.25rem;
+        margin-bottom: 10rem;
+    }
+
+    .sectionTree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .sectionTree .titleContact {
+        display: grid;
+        justify-content: space-between;
+        text-decoration: #D1D1D1;
+    }
+    
+    .sectionTree .titleProjects {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .sectionTwo .hardLeft h3, .sectionTwo .hardRight h3 {
+        font-size: 1.8rem;
+    }
+
+    .sectionTwo .hardLeft p, .sectionTwo .hardRight p {
+        font-size: 0.8rem;
+    }
+
+    .spiral {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .heading-secundary {
+        font-size: 2.2rem;
+        font-weight: 500;
+        letter-spacing: -0.15rem;
+        display: block;
+        margin-bottom: 10rem;
+        line-height: 4rem;
+    }
+
+    p.text_about {
+        padding-right: 1rem;
+        color: #fff;
+        line-height: 0.7rem;
+        margin-top: 2rem;
+    }
+
+    .clickProjects img {
+        transition: transform 0.3s ease-in-out;
+        border-top-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        overflow: hidden;
+        width: 90%;
+        height: 90%;
+    }
+
+    h2.heading-secundary {
+        font-size: 2rem;
+        letter-spacing: 0.05rem;
+        font-weight: 500;
+        margin-bottom: 21rem;
+    }
+
+    .git-end i,
+    .whats-end i,
+    .mail-end i,
+    .linke-end i,
+    .insta-end i,
+    .git-start i,
+    .insta-start i,
+    .linke-start i,
+    .email-start i,
+    .whats-start i {
+        font-size: 1.2rem;
+    }
+
+    .projectsBoxes>div>img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .hardLeft,
+    .hardRight {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hardLeft h3,
+    .hardRight h3 {
+        font-size: 1.3rem;
+    }
+
+    .hardLeft p,
+    .hardRight p {
+        font-size: 0.7rem;
+    }
+
+    .titleTertiary {
+        font-size: 1.5rem;
+    }
+
+    .projectsLanguage {
+        font-size: .7rem;
+    }
+
+    .formGeneral {
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+  
+    .contact {
+        margin-top: -0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+
+    .contact a {
+        position: center;
+    }
+
+    .contactTwo {
+        margin-top: -0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+
+    .end nav {
+        margin-top: 0.3rem;
+    }
+
+    h1.contactEnd {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-right: 2.5rem;
+        letter-spacing: 0.15rem;
+        font-size: 0.8rem;
+    }
+
+    .textEnd {
+        margin-top: 1.55rem;
+    }
+    
+    .end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .end div {
+        margin-top: 2rem;
+    }
+
+    .buttonSubmit {
+        font-size: .65rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pageSucefull div {
+        margin: 5rem auto;
+        max-width: 95%;
+    }
+
+    .pageSucefull div h1 {
+        font-size: 2rem;
+    }
+
+    .pageSucefull div a {
+        font-size: 1rem;
+    }
+
+    main {
+        max-width: 95%;
+    }
+
+    .text_about {
+        padding-right: 20rem;
+    }
+
+    .photo {
+        margin-top: -19rem;
+        bottom: 3rem;
+    }
+
+    .spiral {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .hardLeft,
+    .hardRight {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hardLeft h3,
+    .hardRight h3 {
+        font-size: 1.5rem;
+    }
+
+    .hardLeft p,
+    .hardRight p {
+        font-size: 0.8rem;
+    }
+
+    .end nav {
+        margin-top: 0.5rem;
+    }
+
+    .formGeneral {
+        grid-template-columns: 1fr;
+        gap: 7rem;
+    }
+
+    .text-box {
+        grid-template-columns: 8.47fr 5fr;
+        gap: 0;
+        padding-top: .1rem;
+        text-align: left;
+    }
+
+    .clickProjects img {
+        transition: transform 0.3s ease-in-out;
+        border-top-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        overflow: hidden;
+        width: 90%;
+        height: 90%;
+    }
+
+    .heading-secundary {
+        font-size: 3rem;
+        letter-spacing: -0.205rem;
+        margin-bottom: 15.7rem;
+        line-height: 1.08;
+    }
+
+    .textEnd {
+        margin-top: 2.55rem;
+    }
+
+    .contact,
+    .contactTwo {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .pageSucefull div {
+        margin: 10rem auto;
+        max-width: 90%;
+    }
+
+    .pageSucefull div h1 {
+        font-size: 2.5rem;
+    }
+
+    .pageSucefull div a {
+        font-size: 1.2rem;
+    }
+
+    main {
+        max-width: 90%;
+    }
+
+    .text_about {
+        padding-right: 27rem;
+    }
+
+    .photo {
+        margin-top: -29rem;
+        bottom: 4rem;
+    }
+
+    .spiral {
+        margin-right: 25rem;
+        margin-top: -20rem;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .hardLeft,
+    .hardRight {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hardLeft h3,
+    .hardRight h3 {
+        font-size: 2rem;
+    }
+
+    .hardLeft p,
+    .hardRight p {
+        font-size: 1rem;
+    }
+
+    .end nav {
+        margin-top: 1rem;
+    }
+
+    .sectionTree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleContact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectsBoxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .projectsBoxes > div {
+        text-align: center;
+    }
+
+    .formGeneral {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .heading-secundary {
+        font-size: 3rem;
+    }
+
+    .textEnd {
+        margin-top: 3.55rem;
+    }
+
+    .end nav {
+        display: flex;
+        list-style-type: none;
+        margin-top: 2.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .end nav a {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .contact,
+    .contactTwo {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .clickProjects img {
+        transition: transform 0.3s ease-in-out;
+        border-top-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        overflow: hidden;
+        width: 95%;
+        height: 95%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .projectsBoxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6.9rem 0.25rem;
+        margin-bottom: 10rem;
+    }
+    .clickProjects img {
+        transition: transform 0.3s ease-in-out;
+        border-top-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        overflow: hidden;
+        width: 95%;
+        height: 95%;
+    }
+}

@@ -1,0 +1,42 @@
+Projeto My Portfolio - Documentação de Estilos CSS
+Este README fornece uma visão geral dos estilos CSS utilizados no projeto My Portfolio.
+
+Visão Geral
+O projeto My Portfolio é um site responsivo desenvolvido com HTML e CSS para apresentar informações sobre um determinado tema. A seguir, são destacados os principais pontos relacionados aos estilos CSS aplicados no projeto.
+
+Estilos Gerais
+Reset CSS: O arquivo CSS inclui um reset para remover margens, preenchimentos e definir a caixa de modelagem (box-sizing) para border-box.
+Fonte Padrão: A fonte padrão utilizada no projeto é 'Space Grotesk', uma fonte sem serifa, com uma boa legibilidade em diferentes dispositivos.
+Cores: O esquema de cores predominante é composto por tons de cinza (#151515, #242424) e verde (#4de29f) para destacar certos elementos.
+Seções Principais
+Cabeçalho (header): Apresenta o título do site e itens de navegação. O texto é centralizado e utiliza a cor branca para contrastar com o fundo escuro.
+Seção Um (sectionOne): Contém um título (h2), parágrafos (p) e outros elementos de conteúdo. Os elementos são centralizados e alinhados verticalmente. Bordas inferiores são aplicadas para destacar certos elementos.
+Seção Dois (sectionTwo): Apresenta informações adicionais em um formato de lista. O texto é alinhado à esquerda para uma melhor legibilidade.
+Responsividade
+O site foi projetado para ser responsivo e adaptável a diferentes tamanhos de tela. Foram utilizadas media queries para ajustar os estilos em dispositivos de tela menor (max-width: 768px) e maior (min-width: 1024px).
+
+Acessibilidade
+Os estilos no projeto foram desenvolvidos levando em consideração as diretrizes de acessibilidade. Algumas práticas incluem:
+
+Contraste Adequado: Garantir um bom contraste entre o texto e o fundo para facilitar a leitura.
+Elementos Semânticos: Utilização de elementos semânticos para uma estrutura HTML significativa, melhorando a acessibilidade para leitores de tela e usuários com deficiência visual.
+Texto Alternativo para Imagens: Fornecimento de alternativas de texto para elementos não textuais, como imagens, através do atributo alt.
+Pontos de Melhoria Futura
+Otimização de Imagens: Comprimir e otimizar imagens para reduzir o tamanho do arquivo e melhorar o tempo de carregamento do site.
+Melhoria na Organização do CSS: Avaliar a estrutura do arquivo CSS e buscar maneiras de torná-lo mais modular e fácil de manter.
+Testes de Acessibilidade: Realizar testes de acessibilidade mais abrangentes utilizando ferramentas como Lighthouse ou WAVE para identificar e corrigir potenciais problemas de acessibilidade.
+Desempenho: Continuar monitorando e otimizando o desempenho do site, identificando áreas de melhoria e implementando melhores práticas para uma experiência de usuário mais rápida e eficiente.
+Conclusão
+Este README fornece uma visão geral dos estilos CSS utilizados no projeto My Portfolio, destacando pontos-chave relacionados à estrutura, responsividade, acessibilidade e possíveis melhorias futuras. Para mais detalhes sobre a implementação dos estilos, consulte o arquivo CSS fornecido no repositório do projeto.
+
+Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+HTML5: Linguagem de marcação utilizada para a construção das páginas web.
+CSS3: Mecanismo para adicionar estilos a uma página web.
+Git: Sistema de controle de versões.
+Github: Plataforma para hospedagem de código-fonte.
+Visual Studio Code: Editor de código-fonte.
+Navegador web: Interação com documentos HTML.
+Licença
+Esse projeto está sob a licença MIT.
